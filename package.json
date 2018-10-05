@@ -1,0 +1,23 @@
+{
+	"name": "theme-roderickqiu-light",
+	"displayName": "RoderickQiu's Light Theme",
+	"description": "%description%",
+	"version": "1.0.0",
+	"publisher": "RoderickQiu",
+	"categories": ["Themes"],
+	"engines": {"vscode": "*"},
+	"keywords": [
+		"light",
+		"theme",
+		"RoderickQiu"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "RoderickQiu's Light Theme",
+				"uiTheme": "vs",
+				"path": "./themes/roderickqiu-light-color-theme.json"
+			}
+		]
+	}
+}
