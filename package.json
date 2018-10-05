@@ -1,18 +1,22 @@
 {
 	"name": "theme-roderickqiu-light",
 	"displayName": "RoderickQiu's Light Theme",
-	"description": "%description%",
+	"description": "It's a blue-style minimalist theme for VS Code.",
 	"version": "1.0.0",
 	"publisher": "RoderickQiu",
-	"categories": ["Themes"],
+	"categories": [
+		"Themes"
+	],
 	"icon": "icon.png",
-	"engines": {"vscode": "*"},
+	"engines": {
+		"vscode": "*"
+	},
 	"keywords": [
 		"light",
 		"theme",
 		"RoderickQiu"
 	],
-	"license" : "MIT",
+	"license": "MIT",
 	"contributes": {
 		"themes": [
 			{
@@ -21,5 +25,10 @@
 				"path": "./themes/roderickqiu-light-color-theme.json"
 			}
 		]
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/RoderickQiu/theme-roderickqiu-light.git"
+	},
+	"homepage": "https://github.com/RoderickQiu/theme-roderickqiu-light/blob/master/README.md"
 }
